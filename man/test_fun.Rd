@@ -5,7 +5,7 @@
 Test function
 }
 \description{
-Test function.
+Testing pbapply package.
 }
 \usage{
 test_fun(x, time = 0.01)
