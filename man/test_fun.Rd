@@ -33,7 +33,7 @@ Peter Solymos <solymos@ualberta.ca>
 }
 \examples{
 test_fun(10)
-pb_fun(1:10)
+pb_fun(1:10, test_fun)
 opb <- pboptions(type = "timer")
 pb_fun(1:10, test_fun)
 pboptions(opb)
